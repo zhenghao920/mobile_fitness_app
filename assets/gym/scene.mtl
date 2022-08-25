@@ -1,0 +1,73 @@
+# Exported from 3D Builder
+
+newmtl Floor_0
+Kd 1.000000 1.000000 1.000000
+map_Kd Floor_baseColor_6672996682974157280.png
+
+newmtl lambert3SG1_0
+Kd 1.000000 1.000000 1.000000
+map_Kd lambert3SG1_baseColor_17832851910588591680.png
+
+newmtl WallsMaterial_0
+Kd 1.000000 1.000000 1.000000
+map_Kd WallsMaterial_baseColor_12136749704190523488.png
+
+newmtl Mat_TV_0
+Kd 1.000000 1.000000 1.000000
+map_Kd Mat_TV_baseColor_15853527909305393568.png
+
+newmtl Mat_Mat_0
+Kd 1.000000 1.000000 1.000000
+map_Kd Mat_Mat_baseColor_8153810648107067296.png
+
+newmtl Mat_LegMachine_0
+Kd 1.000000 1.000000 1.000000
+map_Kd Mat_LegMachine_baseColor_8328196163999553924.png
+
+newmtl SquatRack_0
+Kd 1.000000 1.000000 1.000000
+map_Kd SquatRack_baseColor_11844104306962135124.png
+
+newmtl Mat_0
+Kd 1.000000 1.000000 1.000000
+map_Kd Treadmill_lambert3SG1_baseColor_3896539097055736404.png
+
+newmtl Mat_IndoorBike_0
+Kd 1.000000 1.000000 1.000000
+map_Kd Mat_IndoorBike_baseColor_1209896779176171428.png
+
+newmtl Mat_1
+Kd 1.000000 1.000000 1.000000
+map_Kd ball11_baseColor_11227468235273622916.png
+
+newmtl Mat_2
+Kd 1.000000 1.000000 1.000000
+map_Kd medrack_baseColor_12799873797151507104.png
+
+newmtl Mat_3
+Kd 1.000000 1.000000 1.000000
+map_Kd bench1_baseColor_8269887908031960512.png
+
+newmtl lambert2SG1_0
+Kd 1.000000 1.000000 1.000000
+map_Kd lambert2SG1_baseColor_13191691428860340608.png
+
+newmtl WeightBar_0
+Kd 1.000000 1.000000 1.000000
+map_Kd WeightBar_baseColor_5131845601309704256.png
+
+newmtl papertowel_0
+Kd 1.000000 1.000000 1.000000
+map_Kd papertowel_baseColor_498167688549583552.png
+
+newmtl Lightswich_0
+Kd 1.000000 1.000000 1.000000
+map_Kd Lightswich_baseColor_11438877606892124596.png
+
+newmtl Outlet1_0
+Kd 1.000000 1.000000 1.000000
+map_Kd Outlet1_baseColor_18317280090368220212.png
+
+newmtl lambert1_0
+Kd 1.000000 1.000000 1.000000
+map_Kd lambert1_baseColor_2795616542759055956.png

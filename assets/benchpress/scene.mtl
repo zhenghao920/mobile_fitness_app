@@ -1,0 +1,9 @@
+# Exported from 3D Builder
+
+newmtl flat_bench_0
+Kd 1.000000 1.000000 1.000000
+map_Kd flat_bench_baseColor_17832851910588591680.png
+
+newmtl 20kg_barbell_0
+Kd 1.000000 1.000000 1.000000
+map_Kd 20kg_barbell_baseColor_6672996682974157280.png

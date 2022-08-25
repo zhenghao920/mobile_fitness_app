@@ -1,0 +1,9 @@
+# Exported from 3D Builder
+
+newmtl Ch47_hair_0
+Kd 1.000000 1.000000 1.000000
+map_Kd Ch47_hair_diffuse_167486454463440640.png
+
+newmtl Ch47_Body_0
+Kd 1.000000 1.000000 1.000000
+map_Kd Ch47_Body_diffuse_15658513220948412384.png

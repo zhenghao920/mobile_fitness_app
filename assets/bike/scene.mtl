@@ -1,0 +1,55 @@
+# Exported from 3D Builder
+
+newmtl bracketcolor229229229_0
+Kd 0.953770 0.953770 0.953770
+
+newmtl 20mm_outercolor1651310_0
+Kd 0.824993 0.744326 0.000000
+
+newmtl 6mm_ball_bearingcolor165158150_0
+Kd 0.824993 0.809240 0.790730
+
+newmtl basecolor97121201_0
+Kd 0.580899 0.642259 0.806453
+
+newmtl crank_boltcolor0128255_0
+Kd 0.000000 0.736647 1.000000
+
+newmtl crank_boltcolor135140140_0
+Kd 0.754406 0.766765 0.766765
+
+newmtl crank_boltcolor282828_0
+Kd 0.365252 0.365252 0.365252
+
+newmtl display_screencolor172172172_0
+Kd 0.000000 0.000000 0.000000
+
+newmtl display_screencolor767676_0
+Kd 0.190265 0.175953 0.175953
+
+newmtl end_adjustercolor260210_0
+Kd 0.084945 0.522329 0.918013
+
+newmtl flywheelcolor202209238_0
+Kd 0.902393 0.916080 0.970103
+
+newmtl handlebar_post_pin_nutcolor767676_0
+Kd 0.582088 0.582088 0.582088
+
+newmtl handlebar_post_pin_washercolor153153153_0
+Kd 0.797738 0.797738 0.797738
+
+newmtl handlebarscolor97121201_0
+Kd 0.650259 0.718312 0.900416
+
+newmtl left_crank_armcolor51102178_0
+Kd 0.484529 0.665185 0.853244
+
+newmtl mechanism_casing_twocolor3132133_0
+Kd 0.383459 0.389297 0.749388
+
+newmtl pincolor262626_0
+Kd 0.352474 0.352474 0.352474
+
+newmtl stem_headcolor485252_0
+Kd 0.471071 0.488913 0.488913

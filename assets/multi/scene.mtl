@@ -1,0 +1,25 @@
+# Exported from 3D Builder
+
+newmtl Rubber_0
+Kd 0.150000 0.150000 0.150000
+
+newmtl Tubes_0
+Kd 0.633325 0.633325 0.633325
+
+newmtl Tubes_2_0
+Kd 0.579991 0.579991 0.579991
+
+newmtl Metall_0
+Kd 0.906332 0.906332 0.906332
+
+newmtl Rubber_temnee_0
+Kd 0.120000 0.120000 0.120000
+
+newmtl material_0_0
+Kd 1.000000 1.000000 1.000000
+
+newmtl Leather_Black_0
+Kd 0.146656 0.146656 0.146656
+
+newmtl Leather_Red_0
+Kd 0.759991 0.160038 0.130997
