@@ -159,26 +159,6 @@ class _EditProfileState extends State<EditProfile> {
                           onPressed: editWeightDialog,
                           icon: Icon(Icons.edit)),
                     );
-                    // Row(
-                    //   children: [
-                    //     Text(
-                    //       "Occupation: ",
-                    //       style: TextStyle(
-                    //           fontSize: 22, fontWeight: FontWeight.bold),
-                    //       textAlign: TextAlign.center,
-                    //     ),
-                    //     SizedBox(
-                    //       width: 150,
-                    //     ),
-                    //     Text(
-                    //       "${snapshot.data!['Occupation'] ?? ''}",
-                    //       style: TextStyle(
-                    //         fontSize: 20,
-                    //       ),
-                    //       textAlign: TextAlign.center,
-                    //     ),
-                    //   ],
-                    // );
                   } else {
                     return Container();
                   }
@@ -217,86 +197,11 @@ class _EditProfileState extends State<EditProfile> {
                           },
                           icon: Icon(Icons.edit)),
                     );
-                    // Row(
-                    //   children: [
-                    //     Text(
-                    //       "Occupation: ",
-                    //       style: TextStyle(
-                    //           fontSize: 22, fontWeight: FontWeight.bold),
-                    //       textAlign: TextAlign.center,
-                    //     ),
-                    //     SizedBox(
-                    //       width: 150,
-                    //     ),
-                    //     Text(
-                    //       "${snapshot.data!['Occupation'] ?? ''}",
-                    //       style: TextStyle(
-                    //         fontSize: 20,
-                    //       ),
-                    //       textAlign: TextAlign.center,
-                    //     ),
-                    //   ],
-                    // );
                   } else {
                     return Container();
                   }
                 }),
           ),
-
-          // Padding(
-          //   padding: const EdgeInsets.only(top: 20, left: 13, right: 13),
-          //   child: TextFormField(
-          //     //cursorColor: Theme.of(context).cursorColor,
-          //     //initialValue: 'Edit your phone number',
-          //     maxLength: 25,
-          //     decoration: InputDecoration(
-          //       icon: Icon(Icons.phone_android),
-          //       labelText: 'Phone No',
-          //       //helperText: 'Helper text',
-          //       suffixIcon: Icon(Icons.check_circle),
-          //     ),
-          //   ),
-          // ),
-          // Padding(
-          //   padding: const EdgeInsets.only(top: 20, left: 13, right: 13),
-          //   child: TextFormField(
-          //     //cursorColor: Theme.of(context).cursorColor,
-          //     //initialValue: 'Edit your password',
-          //     //maxLength: 6,
-          //     decoration: InputDecoration(
-          //       icon: Icon(Icons.password),
-          //       labelText: 'Password',
-          //       //helperText: 'Helper text',
-          //       suffixIcon: Icon(
-          //         Icons.check_circle,
-          //       ),
-          //     ),
-          //   ),
-          // ),
-          // SizedBox(
-          //   height: 80,
-          // ),
-          // InkWell(
-          //   onTap: editDialog,
-          //   child: Container(
-          //     height: 50,
-          //     width: double.infinity,
-          //     decoration: BoxDecoration(
-          //         gradient:
-          //             LinearGradient(colors: [kSecondaryDarkColor, Colors.grey]),
-          //         borderRadius: BorderRadius.circular(30)),
-          //     child: Row(
-          //       mainAxisAlignment: MainAxisAlignment.center,
-          //       children: [
-          //         Text(
-          //           "Edit",
-          //           style: TextStyle(
-          //               fontSize: 16, color: white, fontWeight: FontWeight.bold),
-          //         )
-          //       ],
-          //     ),
-          //   ),
-          // ),
         ]),
       ),
     );
@@ -388,7 +293,6 @@ class _EditProfileState extends State<EditProfile> {
         .update({'height': heightController.text});
     Fluttertoast.showToast(msg: "Update successfully :) ");
     setState(() {});
-    // Navigator.pushNamedAndRemoveUntil(context, "/profile", (route) => false);
   }
 
   updateAge() async {
@@ -405,7 +309,6 @@ class _EditProfileState extends State<EditProfile> {
         .update({'age': ageController.text});
     Fluttertoast.showToast(msg: "Update successfully :) ");
     setState(() {});
-    // Navigator.pushNamedAndRemoveUntil(context, "/profile", (route) => false);
   }
 
   updateWeight() async {
@@ -422,6 +325,5 @@ class _EditProfileState extends State<EditProfile> {
         .update({'weight': weightController.text});
     Fluttertoast.showToast(msg: "Update successfully :) ");
     setState(() {});
-    // Navigator.pushNamedAndRemoveUntil(context, "/profile", (route) => false);
   }
 }

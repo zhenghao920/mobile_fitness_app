@@ -49,71 +49,14 @@ class _NutritionDietPageState extends State<NutritionDietPage> {
             SizedBox(
               height: 15,
             ),
-            // Expanded(
-            //   child: ListView.builder(
-            //       scrollDirection: Axis.vertical,
-            //       shrinkWrap: true,
-            //       itemBuilder: (context, index) {
-            //         return ListTile(
-            //           title: Text(provider.foodList[index].foodName),
-            //           subtitle: Text(provider.foodList[index].calories),
-            //           onTap: () async {
-            //             Navigator.of(context).push(MaterialPageRoute(
-            //                 builder: (context) => FoodDetail(
-            //                     index: index, foodList: provider.foodList)));
-            //           },
-            //         );
-            //       }),
-            // )
           ],
         )
-
-            // Expanded(
-            //   child: FutureBuilder(
-            //     future: DefaultAssetBundle.of(context)
-            //         .loadString("assets/food_dataset_string.json"),
-            //     builder: (context, snapshot) {
-            //       var showData = json.decode(snapshot.data.toString());
-            //       return ListView.builder(
-            //         itemBuilder: (context, index) {
-            //           final food = foods[index];
-            //           //return buildBook(food);
-            //           return ListTile(
-            //             onTap: () async {
-            //               Navigator.of(context).push(MaterialPageRoute(
-            //                   builder: (context) => FoodDetail(
-            //                       index: index, foodList: showData)));
-            //             },
-            //             // leading: Image.asset(
-            //             //   food.imagePath,
-            //             //   fit: BoxFit.cover,
-            //             //   width: 50,
-            //             //   height: 50,
-            //             // ),
-            //             title: Text(showData[index]['food']),
-            //             subtitle: Text(showData[index]['calories']),
-            //           );
-            //         },
-            //         itemCount: showData.length.compareTo(0),
-            //       );
-            //     },
-            //   ),
-            // ),
 
             );
       }),
     );
   }
 
-  // void searchFood(String query) {
-  //   final provider = Provider.of<FoodsProvider>(context, listen: false);
-  //   final suggestion = provider.foodList.where((food) {
-  //     final foodTitle = food.foodName.toLowerCase();
-  //     final input = query.toLowerCase();
-  //     return foodTitle.contains(input);
-  //   }).toList();
-  //   setState(() => foodWithNut = suggestion);
-  // }
 
   Widget buildSearch() => NutritionSearch(
         text: query,

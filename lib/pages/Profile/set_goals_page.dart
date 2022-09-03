@@ -145,6 +145,5 @@ class _SetGoalsState extends State<SetGoals> {
         .update({'targetWeight': targetController.text});
     Fluttertoast.showToast(msg: "Update successfully :) ");
     setState(() {});
-    // Navigator.pushNamedAndRemoveUntil(context, "/profile", (route) => false);
   }
 }

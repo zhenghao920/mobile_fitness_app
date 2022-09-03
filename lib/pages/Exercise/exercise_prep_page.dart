@@ -75,67 +75,6 @@ class ExercisePrepPage extends StatelessWidget {
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      // Container(
-                      //   padding: EdgeInsets.all(20.0),
-                      //   margin: EdgeInsets.only(top: 20.0, bottom: 20.0),
-                      //   height: 90.0,
-                      //   decoration: BoxDecoration(
-                      //     color: Color.fromRGBO(231, 241, 255, 1.0),
-                      //     borderRadius: BorderRadius.circular(15.0),
-                      //   ),
-                      //   child: Row(
-                      //     children: <Widget>[
-                      //       Container(
-                      //         margin: EdgeInsets.only(right: 55.0),
-                      //         child: Column(
-                      //           mainAxisAlignment:
-                      //               MainAxisAlignment.spaceBetween,
-                      //           crossAxisAlignment: CrossAxisAlignment.start,
-                      //           children: <Widget>[
-                      //             Text(
-                      //               'Time',
-                      //               style: TextStyle(
-                      //                   fontSize: 14.0,
-                      //                   color: Colors.blueGrey[300]),
-                      //             ),
-                      //             // Text(
-                      //             //   '${this.exercise.time}',
-                      //             //   style: TextStyle(
-                      //             //       fontSize: 18.0,
-                      //             //       color: Colors.lightBlue,
-                      //             //       fontWeight: FontWeight.w900),
-                      //             // ),
-                      //           ],
-                      //         ),
-                      //       ),
-                      //       Container(
-                      //         margin: EdgeInsets.only(right: 45.0),
-                      //         child: Column(
-                      //           mainAxisAlignment:
-                      //               MainAxisAlignment.spaceBetween,
-                      //           crossAxisAlignment: CrossAxisAlignment.start,
-                      //           children: <Widget>[
-                      //             Text(
-                      //               'Intensity',
-                      //               style: TextStyle(
-                      //                 fontSize: 14.0,
-                      //                 color: Colors.blueGrey[300],
-                      //               ),
-                      //             ),
-                      //             Text(
-                      //               this.exercise.difficult,
-                      //               style: TextStyle(
-                      //                 fontSize: 18.0,
-                      //                 color: Colors.lightBlue,
-                      //                 fontWeight: FontWeight.w900,
-                      //               ),
-                      //             ),
-                      //           ],
-                      //         ),
-                      //       ),
-                      //     ],
-                      //   ),
-                      // ),
                     ],
                   ),
                 ),

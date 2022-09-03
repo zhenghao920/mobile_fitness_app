@@ -1,7 +1,6 @@
 import 'package:fitness_ui_kit/pages/AR/3d_options.dart';
 import 'package:fitness_ui_kit/pages/AR/3d_view.dart';
 import 'package:fitness_ui_kit/pages/AR/ar_feature_page.dart';
-import 'package:fitness_ui_kit/pages/AR/new_ar.dart';
 import 'package:fitness_ui_kit/theme/colors.dart';
 import 'package:flutter/material.dart';
 

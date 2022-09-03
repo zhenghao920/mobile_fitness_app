@@ -383,10 +383,6 @@ class _SignUpPageState extends State<SignUpPage> {
         .doc(user.uid)
         .set(userModel.toMap());
     Fluttertoast.showToast(msg: "Account created successfully :) ");
-
-    // Future.delayed(const Duration(seconds: 2));
-    // Navigator.popAndPushNamed(context, 'auth_page');
-    //navigatorKey.currentState!.popUntil((route) => route.isFirst);
   }
 
   Future signUp() async {
@@ -413,7 +409,5 @@ class _SignUpPageState extends State<SignUpPage> {
       print(e);
       Utils.showSnackBar(e.message);
     }
-    //navigatorKey.currentState!.popUntil((route) => route.isFirst);
-    //Navigator.popAndPushNamed(context, 'auth_page');
   }
 }

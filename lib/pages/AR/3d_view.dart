@@ -31,17 +31,6 @@ class _ModelViewState extends State<ModelView> {
             scene.world.add(model);
             scene.camera.zoom = 5;
           },
-        ))
-
-        // ModelViewer(
-        //   backgroundColor: Colors.teal[50],
-        //   //src: 'assets/ar/scene.gltf',
-        //   src: "https://raw.githubusercontent.com/zhenghao920/3dmodel_test/main/scene.gltf",
-        //   alt: "Workout 3D Model",
-        //   autoPlay: true,
-        //   autoRotate: true,
-        //   cameraControls: true,
-        // ),
-        );
+        )));
   }
 }

@@ -27,39 +27,6 @@ class Dashboard extends StatelessWidget {
     )
   ];
 
-  List<Widget> generateList(BuildContext context) {
-    List<Widget> list = [];
-    int count = 0;
-    exercises.forEach((exercise) {
-      Widget element = Container(
-        margin: EdgeInsets.only(right: 20.0),
-        child: GestureDetector(
-          child: ExerciseCard(
-            exercise: exercise,
-            tag: 'imageHeader$count',
-            imageWidth: null,
-          ),
-          // onTap: () {
-          //   Navigator.push(
-          //     context,
-          //     MaterialPageRoute(
-          //       builder: (_) {
-          //         return ExerciseDetail(
-          //           exercise: exercise,
-          //           tag: 'imageHeader$count',
-          //         );
-          //       },
-          //     ),
-          //   );
-          // },
-        ),
-      );
-      list.add(element);
-      count++;
-    });
-    return list;
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

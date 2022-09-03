@@ -256,47 +256,4 @@ class _BmiCalculatorState extends State<BmiCalculator> {
         .update({'bmi': calc.calculateBMI()});
     setState(() {});
   }
-
-  // Widget getBody() {
-  //   return SingleChildScrollView(
-  //         child: Column(
-  //           children: [
-  //             Padding(
-  //               padding: const EdgeInsets.all(16),
-  //               child: Column(
-  //                 mainAxisAlignment: MainAxisAlignment.start,
-  //                 //crossAxisAlignment: CrossAxisAlignment.start,
-  //                 children: [
-  //                   radioButton('Men', Colors.blueAccent, 0),
-  //                   radioButton('Women', Colors.redAccent, 1),
-  //                 ],
-  //               ),
-  //             ),
-  //           ],
-  //         ),
-  //       );
-  // }
-
-  // void changeIndex(int index) {
-  //   setState(() {
-  //     currentIndex = index;
-  //   });
-  // }
-
-  // Widget radioButton(String value, Color color, int index) {
-  //   return Expanded(
-  //       child: Container(
-  //         decoration: BoxDecoration(
-  //           borderRadius: BorderRadius.circular(10)
-  //         ),
-  //         margin: EdgeInsets.symmetric(horizontal: 12),
-  //         height: 80,
-  //     child: //TextButton(onPressed: onPressed, child: child, )
-  //     Button(
-  //         text: value,
-  //         onClicked: () {
-  //           changeIndex(index);
-  //         }),
-  //   ));
-  // }
 }

@@ -1,7 +1,6 @@
 import 'dart:typed_data';
 
 import 'package:arcore_flutter_plugin/arcore_flutter_plugin.dart';
-//import 'package:arkit_plugin/arkit_plugin.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:vector_math/vector_math_64.dart' as vector;
@@ -14,75 +13,12 @@ class ArFeaturePage extends StatefulWidget {
 }
 
 class _ArFeaturePageState extends State<ArFeaturePage> {
-/*
-  late Uint8List imageData;
-  @override
-  void initState() {
-    super.initState();
-    loadAsset();
-  }
-
-  void loadAsset() async {
-    Uint8List data =
-        (await rootBundle.load('assets/images/gif1.gif')).buffer.asUint8List();
-    setState(() => this.imageData = data);
-  }
-
-  late ArCoreController arCoreController;
-  _onArCoreViewCreated(ArCoreController _arcoreController) {
-    arCoreController = _arcoreController;
-    _addSphere(arCoreController);
-    _addObject(_arcoreController);
-  }
-
-  _addSphere(ArCoreController _arcoreController) {
-    final material = ArCoreMaterial(color: Colors.deepPurple);
-    final sphere = ArCoreSphere(materials: [material], radius: 0.2);
-    final node = ArCoreNode(
-      shape: sphere,
-      position: vector.Vector3(
-        0,
-        0,
-        -1,
-      ),
-    );
-
-    _arcoreController.addArCoreNode(node);
-  }
-
-  _added(ArCoreController _arcoreController) {
-    ArCorePlane arCorePlane = ArCorePlane()
-    final object = ArCorePlane
-  }
-
-  _addObject(ArCoreController _arcoreController) {
-    final object = ArCoreImage(bytes: imageData, width: 300, height: 300);
-    final node = ArCoreNode(
-        image: object,
-        position: vector.Vector3(
-          0,
-          0,
-          -1,
-        ),
-        rotation: vector.Vector4(1, 1, 1, 1));
-
-    _arcoreController.addArCoreNode(node);
-  }
-
-  @override
-  void dispose() {
-    
-    arCoreController.dispose();
-    super.dispose();
-  }
-*/
-
   late ArCoreController arCoreController;
   late Uint8List imageData;
   @override
   void initState() {
     super.initState();
-    loadAsset();
+    //loadAsset();
   }
 
   void loadAsset() async {
@@ -95,7 +31,6 @@ class _ArFeaturePageState extends State<ArFeaturePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         body:
-            //ARKitSceneView(onARKitViewCreated: (controller) => arView(controller),),
             ArCoreView(
       onArCoreViewCreated: _onArCoreViewCreated,
       enableTapRecognizer: true,
@@ -127,12 +62,9 @@ class _ArFeaturePageState extends State<ArFeaturePage> {
   _addSphere1(ArCoreController _arcoreController) {
     final test = ArCoreReferenceNode(
       scale: vector.Vector3(0.5, 0.5, 0.5),
-      objectUrl: "https://raw.githubusercontent.com/zhenghao920/3dmodel_test/main/scene.gltf",
-      //objectUrl: "https://firebasestorage.googleapis.com/v0/b/fitness-fyp-flutter.appspot.com/o/scene.gltf?alt=media&token=72a0f5cc-8b7a-4208-9a89-5bad4d1b1afe",
+      objectUrl: "https://raw.githubusercontent.com/zhenghao920/3d_model/main/untitled.gltf",
       position: vector.Vector3(0.2, 0, 0),
-      //rotation: vector.Vector4(0, 0, 0, 0),
     );
-
     _arcoreController.addArCoreNodeWithAnchor(test);
   }
 
@@ -204,15 +136,65 @@ class _ArFeaturePageState extends State<ArFeaturePage> {
   }
 }
 
-// void arView(ARKitController controller) {
-//   final nodeAr = ARKitNode(
-//     geometry: ARKitSphere(materials: [
-//       ARKitMaterial(
-//         diffuse: ARKitMaterialProperty(image: "assets/images/back.png"),
-//         doubleSided: true,
-//       )
-//     ], radius: 1),
-//     //position: Vector3(0, 0, 0),
-//   );
-//   controller.add(nodeAr);
-// }
+/*
+  late Uint8List imageData;
+  @override
+  void initState() {
+    super.initState();
+    loadAsset();
+  }
+
+  void loadAsset() async {
+    Uint8List data =
+        (await rootBundle.load('assets/images/gif1.gif')).buffer.asUint8List();
+    setState(() => this.imageData = data);
+  }
+
+  late ArCoreController arCoreController;
+  _onArCoreViewCreated(ArCoreController _arcoreController) {
+    arCoreController = _arcoreController;
+    _addSphere(arCoreController);
+    _addObject(_arcoreController);
+  }
+
+  _addSphere(ArCoreController _arcoreController) {
+    final material = ArCoreMaterial(color: Colors.deepPurple);
+    final sphere = ArCoreSphere(materials: [material], radius: 0.2);
+    final node = ArCoreNode(
+      shape: sphere,
+      position: vector.Vector3(
+        0,
+        0,
+        -1,
+      ),
+    );
+
+    _arcoreController.addArCoreNode(node);
+  }
+
+  _added(ArCoreController _arcoreController) {
+    ArCorePlane arCorePlane = ArCorePlane()
+    final object = ArCorePlane
+  }
+
+  _addObject(ArCoreController _arcoreController) {
+    final object = ArCoreImage(bytes: imageData, width: 300, height: 300);
+    final node = ArCoreNode(
+        image: object,
+        position: vector.Vector3(
+          0,
+          0,
+          -1,
+        ),
+        rotation: vector.Vector4(1, 1, 1, 1));
+
+    _arcoreController.addArCoreNode(node);
+  }
+
+  @override
+  void dispose() {
+    
+    arCoreController.dispose();
+    super.dispose();
+  }
+*/

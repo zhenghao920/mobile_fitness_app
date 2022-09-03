@@ -29,9 +29,7 @@ class _RootAppState extends State<RootApp> {
       index: pageIndex,
       children: [
         HomePage(),
-        //NutritionPage(),
         DietPage(),
-        //BmiCalculator(),
         ArConfirmPage(),
         ProfilePage(),
       ],

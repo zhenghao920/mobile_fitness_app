@@ -24,38 +24,45 @@ dependencies:
   flutter:
     sdk: flutter
 
-  firebase_core: ^0.7.0
-  cloud_firestore:
-  firebase_auth: ^0.20.1
+  
   
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
-  line_icons:
-  flutter_icons:
+  
   fl_chart:
   flutter_svg: ^0.19.3
-  arkit_plugin: ^0.6.2
-  arcore_flutter_plugin: ^0.0.11
   email_validator: ^2.0.1
   fluttertoast: ^8.0.8
   intl: ^0.16.1
   animations: ^1.0.0+5
   percent_indicator: ^4.0.0
-  font_awesome_flutter: ^8.12.0
   provider:
   http: ^0.12.0+2
   wakelock: ^0.5.3+3
   audioplayers: ^0.14.2
   #carousel_slider: ^4.1.1
   animated_splash_screen: ^1.2.0
-  lottie: 
   # model_viewer_plus: 
   url_launcher: ^5.7.10
   # webview_flutter: ^3.0.1
   flutter_cube: ^0.1.1
-  google_fonts: ^1.1.2
   shared_preferences: 
+
+  # AR
+  arcore_flutter_plugin: ^0.0.11
+
+  # asset
+  cupertino_icons: ^1.0.2
+  line_icons:
+  flutter_icons:
+  lottie: 
+  font_awesome_flutter: ^8.12.0
+  google_fonts: ^1.1.2
+
+  # firebase
+  firebase_core: ^0.7.0
+  cloud_firestore:
+  firebase_auth: ^0.20.1
 
   # navigation
   auto_route:

@@ -190,52 +190,6 @@ class _DinnerTabState extends State<DinnerTab> {
                     ),
                   ),
           ),
-          // buildSearch(),
-          // ListView.builder(
-          //   shrinkWrap: true,
-          //   physics: NeverScrollableScrollPhysics(),
-          //   itemCount: foodList1.length,
-          //   itemBuilder: (context, index) {
-          //     return Padding(
-          //       padding:
-          //           const EdgeInsets.only(left: 5, right: 5, bottom: 5),
-          //       child: ListTile(
-          //           tileColor: Colors.blueGrey,
-          //           shape: RoundedRectangleBorder(
-          //               side: BorderSide(color: Colors.amber),
-          //               borderRadius: BorderRadius.circular(15)),
-          //           leading: Icon(Icons.restaurant_menu_outlined),
-          //           title: Text(foodList1[index]['food']),
-          //           subtitle: Text(foodList1[index]['calories']),
-          //           onTap: () {
-          //             newContext.read<FoodsProvider>().addCount();
-          //             Foods foodModel = new Foods(
-          //                 foodName: foodList1[index]['food'],
-          //                 calories: foodList1[index]['calories'],
-          //                 protein: foodList1[index]['protein'],
-          //                 fat: foodList1[index]['fat'],
-          //                 sodium: foodList1[index]['sodium']);
-
-          //             newContext
-          //                 .read<FoodsProvider>()
-          //                 .addItems(foodModel);
-          //           },
-          //           trailing: IconButton(
-          //               onPressed: () {
-          //                 print(
-          //                     "{$foodList1[index]['food'] 'is added'}");
-          //                 // ItemModel itemModel = new ItemModel(
-          //                 //   title: itemsList[index]['title'],
-          //                 //   subTitle: itemsList[index]['subtitle'],
-          //                 // );
-          //                 // print(
-          //                 //     newContext.read<FoodsProvider>().items[index].foodName);
-          //                 // print(newContext.read<FoodsProvider>().items.length);
-          //               },
-          //               icon: Icon(Icons.add_box_rounded))),
-          //     );
-          //   },
-          // ),
         ],
       ),
     );

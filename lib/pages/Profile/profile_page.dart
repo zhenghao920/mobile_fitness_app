@@ -6,8 +6,8 @@ import 'package:fitness_ui_kit/pages/Profile/set_goals_page.dart';
 import 'package:fitness_ui_kit/theme/colors.dart';
 import 'package:fitness_ui_kit/widget/icon_card.dart';
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:intl/intl.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({Key? key}) : super(key: key);
@@ -186,40 +186,3 @@ class _ProfilePageState extends State<ProfilePage> {
     );
   }
 }
-
-/*
-
-              Container(
-                width: double.infinity,
-                height: 60,
-                decoration: BoxDecoration(
-                    color: secondary.withOpacity(0.5),
-                    borderRadius: BorderRadius.circular(20)),
-                child: Padding(
-                  padding: const EdgeInsets.only(left: 20, right: 20),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        "Today Target",
-                        style: TextStyle(
-                            fontSize: 17,
-                            color: black,
-                            fontWeight: FontWeight.w600),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-              Text(
-                userEmail.email!,
-                style: TextStyle(
-                  fontSize: 12,
-                ),
-              ),
-              SizedBox(height: 20),
-              ElevatedButton.icon(
-                  onPressed: () => FirebaseAuth.instance.signOut(),
-                  icon: Icon(Icons.arrow_back),
-                  label: Text('Sign Out'))
- */
